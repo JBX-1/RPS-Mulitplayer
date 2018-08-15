@@ -11,6 +11,54 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4"> UNDERGROUND RAILROAD</h1><br>
+            <img src="https://static01.nyt.com/images/2016/08/14/books/review/0814-BKS-Vasquez-WEB/0814-BKS-Vasquez-WEB-jumbo.jpg?quality=90&auto=webp" alt="UNDERGROUND" width="500" height="500">
+        </div>
+    </div>
+    <div class="container12"><h2 id="trainTime">TIME:</h2></div>
+    <br>
+    <div class="container">
+        <div class="container"><strong align="center">Current Train Schedule</strong>></div>
+        <table class="table">
+            <thead>
+                <th scope="col">Train-Time</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency(min)</th>
+                <th scope="col">Arrival</th>
+                <th scope="col">MINS AWAY</th>
+            </thead>
+        </table>
+    </div>
+    <div class="container">
+        <div class="container">
+        <h2>Train Schedule</h2>
+        </div>
+        <form>
+            <label for="inputTime">Train Name</label>
+            <br>
+            <input type="text" id="trainInputTime" placeholder=""required>
+            <br>
+            <label for="Destination">Destination</label>
+            <br>
+            <input type="text" id="Destination" placeholder="" required>
+        </form>
+        <form action="">
+            <label id="firstSchedule">First Train Time</label>
+            <br>
+            <input type="text" name="" id="trainInput">
+            <br>
+            <label>Next Arrival</label>
+            <br>
+            <input type="text" id="trainDuration" placeholder="">
+            <br>
+            <button id="TrainBtn" class="submitButton">SUBMIT</button>
+        </form>
+    </div>
+    <!--javascript file-->
+    <script src="assets/javascript/java.js"></script>
+    <!--firebase-->
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script> -->
 </body>
 </html>
